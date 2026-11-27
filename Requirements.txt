@@ -1,0 +1,11 @@
+streamlit
+plotly
+numpy
+pandas
+Pillow
+laspy[lazrs]
+numpy-stl
+PyMuPDF
+trimesh
+rasterio
+geopandas
