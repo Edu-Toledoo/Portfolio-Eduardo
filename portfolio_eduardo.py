@@ -575,7 +575,7 @@ with aba_lidar:
         if tipo_dado == "Point Clouds (.laz / .las)":
             mostrar_folhas = st.toggle("🌿 Show Foliage", value=True)
             
-            ARQUIVO_LAS = "Data/LiDAR/tree_43.laz"
+            ARQUIVO_LAS = "Data/LiDAR/Tree_43.laz"
             x_vals, y_vals, z_vals, cores_vals, mask_f = carregar_lidar_otimizado(ARQUIVO_LAS)
             
             fig_3d = go.Figure()
